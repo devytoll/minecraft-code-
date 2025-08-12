@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Galerie Minecraft</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .galerie-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .galerie-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .galerie-grid img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .galerie-grid img:hover {
+            transform: scale(1.05);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="header-logo">BMC</a>
+        <h1>Galerie Minecraft</h1>
+        <nav>
+            <a href="index.html">Acasă</a>
+            <a href="about.html">Despre</a>
+            <a href="contact.html">Contact</a>
+            <a href="galerie.html">Galerie</a>
+        </nav>
+    </header>
+
+    <main class="galerie-container">
+        <div class="galerie-grid">
+            <img src="https://gameroom.ee/83571/minecraft.jpg" alt="Minecraft Cover">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAjVBMVEVSpDUAAAArZRsqYxwAAANWqjdSpTRQoDEnYRgeSRdop0+G1mF9zVuJ12RTrDcJBAQFCAV7w1gkVhlIjS9Gjy0kWhkdRRWN4Wdtvk5OoDFUozhOoi5WpTglXRcoYB5JkjMhSBQcQBRarD0rZRhtpVSE0mV6x1R90GFOmzIoVx0YSg9+wVp+0lsJBgBWqT5sUnT+AAADKElEQVR4nO3d23aaQABGYYgwmCaYE2JFMWqaNk1N3v/xilddS4aVf5QJY7q/a5g128ETARNFAAAAAAAAAAAAAAAAAAAAAIBzZtQNl8bI25qlvOl+AvrGx6jE7ZYmdZhJk7iUt5XncBRT1GNNvarlSUdmOhKHHY8f9WPjiL4qLVYj1VSeSTW5v1BHrQvjcQ2bp9bj+EKlF0bLWh51XDg8aY8qLC81r+vNRB433ajDXm4Kr0epMUWsS+WBU4dRHzwfpXJhEsfyGlaT/eaiwuu7hTEP8kwST2tYeH07pJDCLhRS2B8KKexCIYX9oZDCLhRS2B8KKexCIYX9oZDCLhRS2B8KKexCIYX9oZDCLhRS2F9glOqFcbxNVROXQq/X01Sm+qZ7ki8DetIH/ZFW+tVkRxQutrnoKt/V4hViq4vpTh02n6WVzzWMFumV7Fm/lKt+lkfNXa55PMb2WrR7vl7fq15/qsNe/9p67WtkopfFi8PLx8tcHXfuO1BmTOVQmHl89XBlRJXJ5L4kztRh/T4Hnbitoc/XR1+MwxpSGCYKKQwfhRSGj8KvUDj/SoXN5+zWJ2SnNcysn+iHzvrHdm7I7SgN6duTjXmPLCfQnL4fmvb+Rj8b6d2y/j1tuZ86FNbt/ZsRwjlMJ6OR5Q7JsUOh7azcUx1O4bKZYPsE2kruS2Lb/qNxOIVpWV6WB9brjcMalq+H+5flpgznidjxZwf9nkK7m3AKJzcntlgltxR+HgoppHB4FFJI4fAopJDC4VFIIYXDo5BCCodHIYUUDo9CCikcHoUUUjg8Cr9mYeJ2pYJl2/ALT70UI/TCZoJ3qj9351iYxLcz+W7M2Tkepc0M5cJ8Zjuiwy+Md/Jtk7szLUznosx62dg5FKr7m/MsPPkXByj8TBR+iMLBUfghCgdH4YcoHNx/UPjWzOeAS6Htk3czxFtYhRanfrcI6J6Z1H6Uvqv7m631tFVIa2hdQof/u9Zx41Q4hdn+F6oOzy5d5Zk+wMwqnF9MWuyDWj/KlS/kAbK89QjtH6SwClvTcymc20/BhVMYfbf6zAEAAAAAAAAAAAAAAABC8BcfaY0kWHg/YgAAAABJRU5ErkJggg==" alt="Minecraft Creeper">
+            <img src="https://static1.thegamerimages.com/wordpress/wp-content/uploads/minecraft-game-franchise-series.jpg" alt="Minecraft Wiki Logo">
+            <img src="https://images.mein-mmo.de/medien/2025/06/Minecraft-Update-780x438.jpg" alt="Minecraft Dungeons">
+            <img src="https://www.pluggedin.com/wp-content/uploads/2020/01/minecraft-review-image-1024x587.jpg" alt="Minecraft Legends Art">
+            <img src="https://i.ytimg.com/vi/wJO_vIDZn-I/maxresdefault.jpg" alt="Minecraft Legends Art">
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2023 Server BMC | contact@serverbmc.ro | Versiunea 1.19.4</p>
+    </footer>
+</body>
+</html>
